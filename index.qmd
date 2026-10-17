@@ -35,6 +35,7 @@ main.content h2 { font-size:1.6rem; margin-top:2.2rem; border-bottom:1px solid v
 .jl-actions a.jl-button-outline { color:var(--petrol); background:transparent; }
 .jl-actions a.jl-button:hover { background:var(--coral); border-color:var(--coral); color:white; }
 .jl-portrait-wrap { width:100%; min-width:0; }
+.jl-portrait-photo { width:100%; aspect-ratio:4/5; max-width:350px; object-fit:cover; object-position:center top; display:block; border-radius:3px; }
 .jl-portrait-placeholder { width:100%; aspect-ratio:4/5; max-width:350px; border:1px solid #dfe7e8; background:linear-gradient(150deg,var(--paper),var(--mist)); color:var(--petrol); display:flex; flex-direction:column; justify-content:center; align-items:center; gap:.35rem; text-align:center; }
 .jl-portrait-mark { font-family:Georgia,"Times New Roman",serif; color:var(--petrol); font-size:5rem; line-height:1.2; }
 .jl-portrait-placeholder > span:not(.jl-portrait-mark) { font-size:.9rem; }
@@ -73,7 +74,7 @@ body:has(.jl-hero) .jl-interests {display:flex !important;flex-wrap:wrap !import
     </div>
   </div>
   <div class="jl-portrait-wrap">
-    <div class="jl-portrait-placeholder"><span class="jl-portrait-mark">JL</span><span>Professional portrait</span><small>To be added</small></div>
+    <img class="jl-portrait-photo" src="assets/portrait.jpg" alt="Portrait of Javier Lera" width="350" height="438" loading="eager">
   </div>
 </section>
 <section class="jl-home-sections" aria-label="Highlights">
