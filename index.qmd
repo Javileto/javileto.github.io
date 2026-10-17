@@ -1,51 +1,47 @@
 ---
 title: "Home"
 page-layout: full
+title-block-style: none
 ---
 
-::: {.hero-wrap}
-::: {.hero-copy}
-<div class="eyebrow">UNIVERSITY OF CANTABRIA · SPAIN</div>
-
-# Javier Lera {.hero-name}
-
-<div class="role">Assistant Professor of Economics</div>
-<div class="accent-rule"></div>
-
-I am an **applied economist** whose research lies at the intersection of health economics, public economics and social policy. My work focuses on socioeconomic inequalities, ageing, well-being and the evaluation of public policies using quantitative methods.
-
-<div class="hero-actions">
-<a class="btn btn-primary" href="assets/Javier_Lera_CV.pdf">View CV ↗</a>
-<a class="btn btn-outline-primary" href="publications.html">Publications</a>
-<a class="btn btn-outline-primary" href="https://scholar.google.com/citations?user=gfkU6GwAAAAJ&amp;hl=en">Google Scholar ↗</a>
-</div>
-:::
-
-::: {.portrait-area}
-<div class="portrait-placeholder"><div class="portrait-mark">JL</div><span>Professional portrait</span><small>To be added</small></div>
-:::
-:::
-
-::: {.home-sections}
-## Research interests
-
-<div class="interests"><span>Health Economics</span><span>Public Economics</span><span>Ageing & Long-Term Care</span><span>Applied Microeconometrics</span><span>Public Policy Evaluation</span></div>
-
-## Selected publications
-
-**Social capital, partnership transitions and depressive symptoms in later life: Evidence from Europe.**  
-Lera, J., Pinillos-Franco, S., and Cantarero-Prieto, D. (2026). *Applied Economics*. [DOI](https://doi.org/10.1080/00036846.2026.2740199)
-
-**Parental permissiveness toward alcohol and tobacco and its consequences for adolescent vaping behaviors.**  
-Pinillos-Franco, S., Lera, J., and Cantarero-Prieto, D. (2026). *BMC Public Health*.
-
-**Pay attention to your social capital! It determines your health: an analysis for the elderly in Europe.**  
-Lera, J., Cantarero-Prieto, D., and Pinillos-Franco, S. (2026). *Health Economics Review*, 16, 18.
-
-[View all publications →](publications.qmd){.more-link}
-
-## Contact
-
-Department of Economics, University of Cantabria, Santander, Spain  
-[javier.lera@unican.es](mailto:javier.lera@unican.es) · [ORCID](https://orcid.org/0000-0002-0367-265X) · [Google Scholar](https://scholar.google.com/citations?user=gfkU6GwAAAAJ&hl=en)
-:::
+```{=html}
+<section class="jl-hero" aria-label="Introduction">
+  <div class="jl-hero-copy">
+    <div class="jl-eyebrow">UNIVERSITY OF CANTABRIA · SPAIN</div>
+    <h1 class="jl-name">Javier Lera</h1>
+    <p class="jl-role">Assistant Professor of Economics</p>
+    <div class="jl-accent-rule" aria-hidden="true"></div>
+    <p class="jl-intro">I am an <strong>applied economist</strong> whose research lies at the intersection of health economics, public economics and social policy. My work focuses on socioeconomic inequalities, ageing, well-being and the evaluation of public policies using quantitative methods.</p>
+    <div class="jl-actions">
+      <a class="jl-button jl-button-primary" href="assets/Javier_Lera_CV.pdf">View CV ↗</a>
+      <a class="jl-button jl-button-outline" href="publications.html">Publications</a>
+      <a class="jl-button jl-button-outline" href="https://scholar.google.com/citations?user=gfkU6GwAAAAJ&amp;hl=en">Google Scholar ↗</a>
+    </div>
+  </div>
+  <div class="jl-portrait-wrap">
+    <div class="jl-portrait-placeholder"><span class="jl-portrait-mark">JL</span><span>Professional portrait</span><small>To be added</small></div>
+  </div>
+</section>
+<section class="jl-home-sections" aria-label="Highlights">
+  <h2>Research interests</h2>
+  <div class="jl-interests">
+    <span>Health Economics</span><span>Public Economics</span><span>Ageing &amp; Long-Term Care</span><span>Applied Microeconometrics</span><span>Public Policy Evaluation</span>
+  </div>
+  <h2>Selected publications</h2>
+  <div class="jl-paper">
+    <strong>Social capital, partnership transitions and depressive symptoms in later life: Evidence from Europe.</strong>
+    <p>Lera, J., Pinillos-Franco, S., and Cantarero-Prieto, D. (2026). <em>Applied Economics</em>. <a href="https://doi.org/10.1080/00036846.2026.2740199">DOI</a></p>
+  </div>
+  <div class="jl-paper">
+    <strong>Parental permissiveness toward alcohol and tobacco and its consequences for adolescent vaping behaviors.</strong>
+    <p>Pinillos-Franco, S., Lera, J., and Cantarero-Prieto, D. (2026). <em>BMC Public Health</em>.</p>
+  </div>
+  <div class="jl-paper">
+    <strong>Pay attention to your social capital! It determines your health: an analysis for the elderly in Europe.</strong>
+    <p>Lera, J., Cantarero-Prieto, D., and Pinillos-Franco, S. (2026). <em>Health Economics Review</em>, 16, 18.</p>
+  </div>
+  <p><a class="jl-more" href="publications.html">View all publications →</a></p>
+  <h2>Contact</h2>
+  <p>Department of Economics, University of Cantabria, Santander, Spain<br><a href="mailto:javier.lera@unican.es">javier.lera@unican.es</a> · <a href="https://orcid.org/0000-0002-0367-265X">ORCID</a> · <a href="https://scholar.google.com/citations?user=gfkU6GwAAAAJ&amp;hl=en">Google Scholar</a></p>
+</section>
+```

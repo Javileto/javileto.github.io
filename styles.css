@@ -1,27 +1,42 @@
-/* Javier Lera — academic editorial identity */
-:root{--petrol:#1F4E5F;--coral:#E97A5F;--ink:#16323B;--mist:#E9EEF0;--paper:#FAFAF8}
-body{color:var(--ink);background:#fff;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.04rem;line-height:1.7}
-h1,h2,h3,.navbar-title{font-family:Georgia,"Times New Roman",serif;color:var(--ink)}
-a{color:var(--petrol)}a:hover{color:var(--coral)}
-.navbar{background:#fff!important;border-bottom:1px solid #e8eded;box-shadow:none;padding-top:.65rem;padding-bottom:.65rem}
-.navbar .nav-link{color:var(--ink)!important;font-size:.92rem}.navbar .nav-link:hover{color:var(--coral)!important}
-.navbar-brand-logo img{max-height:49px!important;width:52px!important}.navbar-title{font-size:1.08rem;letter-spacing:.025em;font-weight:500}
-.navbar .navbar-nav{gap:.12rem}.content{max-width:940px;margin:auto}
-main.content h1.title{font-size:2.6rem;margin-bottom:1.6rem}main.content h2{font-size:1.6rem;margin-top:2.2rem;border-bottom:1px solid var(--mist);padding-bottom:.55rem}
-.hero-wrap{max-width:1160px;margin:0 auto;padding:5rem 2rem 4.4rem;display:grid;grid-template-columns:minmax(0,1.45fr) minmax(270px,.8fr);align-items:center;gap:4.5rem}
-.hero-copy{min-width:0}.eyebrow{font-size:.72rem;letter-spacing:.18em;font-weight:700;color:var(--coral);margin-bottom:1.2rem}
-.hero-name{font-size:clamp(3.3rem,7vw,5.3rem);line-height:1.1;letter-spacing:-.035em;margin:0 0 .55rem}
-.role{font-family:Georgia,"Times New Roman",serif;font-size:1.55rem;color:var(--petrol)}
-.accent-rule{width:72px;height:3px;background:var(--coral);margin:1.35rem 0}
-.hero-copy p{font-size:1.08rem;max-width:640px;line-height:1.8}
-.hero-actions{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1.65rem}.hero-actions .btn{padding:.72rem 1.1rem;font-size:.91rem;border-radius:5px;text-decoration:none}
-.btn-primary{background:var(--petrol);border-color:var(--petrol)}.btn-primary:hover{background:#163c49;border-color:#163c49}.btn-outline-primary{border-color:var(--petrol);color:var(--petrol)}.btn-outline-primary:hover{background:var(--petrol);border-color:var(--petrol);color:#fff}
-.portrait-area{min-width:0}.portrait-placeholder{aspect-ratio:4/5;max-width:355px;background:linear-gradient(145deg,var(--paper),var(--mist));border:1px solid #e0e7e7;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:.5rem;color:var(--petrol);overflow:hidden}
-.portrait-mark{font-family:Georgia,"Times New Roman",serif;font-size:5.6rem;letter-spacing:-.12em;margin-right:.2em;color:var(--petrol)}.portrait-placeholder span{font-size:.87rem}.portrait-placeholder small{color:#657a81;font-size:.73rem}
-/* When you have a portrait, replace the placeholder with <img class="portrait-photo" src="assets/portrait.jpg" alt="Javier Lera"> */
-.portrait-photo{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;display:block}
-.home-sections{max-width:1000px;margin:auto;padding:0 2rem 4rem}.home-sections h2{font-size:1.8rem;margin-top:2.3rem;padding-bottom:.65rem;border-bottom:1px solid var(--mist)}
-.home-sections p{margin-bottom:1.3rem}.interests{display:flex;flex-wrap:wrap;gap:.65rem;margin-bottom:2rem}.interests span{background:#f0f5f5;color:var(--petrol);font-size:.88rem;padding:.4rem .8rem;border-radius:3px}
-.more-link{display:inline-block;font-weight:650;text-decoration:none;border-bottom:2px solid var(--coral);margin-top:.4rem}
-.nav-footer{color:#58717b;border-top:1px solid var(--mist)}
-@media(max-width:800px){.hero-wrap{grid-template-columns:1fr;gap:2rem;padding:3rem 1.3rem 2rem}.portrait-area{max-width:300px}.home-sections{padding:0 1.3rem 3rem}.hero-name{font-size:3.6rem}.role{font-size:1.3rem}}
+/* Javier Lera | Petrol + coral | Quarto website */
+:root { --petrol:#1F4E5F; --coral:#E97A5F; --ink:#16323B; --mist:#E9EEF0; --paper:#FAFAF8; }
+body { background:#fff; color:var(--ink); font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:1rem; line-height:1.7; }
+h1,h2,h3,.navbar-title { font-family:Georgia,"Times New Roman",serif; color:var(--ink); }
+a { color:var(--petrol); }
+a:hover { color:var(--coral); }
+.navbar { background:white!important; border-bottom:1px solid #e8eded; box-shadow:none; padding-top:.65rem; padding-bottom:.65rem; }
+.navbar .nav-link { color:var(--ink)!important; font-size:.92rem; }
+.navbar .nav-link:hover { color:var(--coral)!important; }
+.navbar-brand-logo img { max-height:49px!important; width:52px!important; }
+.navbar-title { font-size:1.08rem; letter-spacing:.025em; font-weight:500; }
+.navbar .navbar-nav { gap:.12rem; }
+main.content h2 { font-size:1.6rem; margin-top:2.2rem; border-bottom:1px solid var(--mist); padding-bottom:.55rem; }
+.nav-footer { color:#58717b; border-top:1px solid var(--mist); }
+/* Home hero: isolated styles to avoid theme collisions */
+.jl-hero { box-sizing:border-box; display:grid; grid-template-columns:minmax(0,1.5fr) minmax(220px,.8fr); gap:clamp(2rem,5vw,4rem); align-items:center; width:min(100% - 3rem,1100px); margin:0 auto; padding:clamp(3rem,6vw,5rem) 0; }
+.jl-hero *, .jl-home-sections * { box-sizing:border-box; }
+.jl-hero-copy { min-width:0; width:100%; }
+.jl-eyebrow { color:var(--coral); font-size:.76rem; font-weight:700; letter-spacing:.13em; margin:0 0 1rem; }
+.jl-hero h1.jl-name { font-family:Georgia,"Times New Roman",serif; color:var(--ink); font-size:clamp(3.1rem,5vw,5rem); line-height:1.12; letter-spacing:-.035em; margin:0 0 .5rem; padding:0; border:0; }
+.jl-hero p.jl-role { font-family:Georgia,"Times New Roman",serif; color:var(--petrol); font-size:clamp(1.2rem,2vw,1.55rem); line-height:1.45; letter-spacing:normal; margin:0; }
+.jl-accent-rule { height:3px; width:70px; background:var(--coral); margin:1.3rem 0; }
+.jl-hero p.jl-intro { font-size:1.05rem; line-height:1.85; letter-spacing:normal; margin:0; max-width:650px; overflow-wrap:break-word; }
+.jl-actions { display:flex; flex-wrap:wrap; align-items:center; gap:.75rem; margin-top:1.7rem; }
+.jl-actions a.jl-button { display:inline-flex; justify-content:center; align-items:center; min-height:44px; padding:.6rem 1rem; border:1px solid var(--petrol); border-radius:5px; text-decoration:none; line-height:1.3; letter-spacing:normal; font-size:.92rem; white-space:nowrap; }
+.jl-actions a.jl-button-primary { color:#fff; background:var(--petrol); }
+.jl-actions a.jl-button-outline { color:var(--petrol); background:transparent; }
+.jl-actions a.jl-button:hover { background:var(--coral); border-color:var(--coral); color:white; }
+.jl-portrait-wrap { width:100%; min-width:0; }
+.jl-portrait-placeholder { width:100%; aspect-ratio:4/5; max-width:350px; border:1px solid #dfe7e8; background:linear-gradient(150deg,var(--paper),var(--mist)); color:var(--petrol); display:flex; flex-direction:column; justify-content:center; align-items:center; gap:.35rem; text-align:center; }
+.jl-portrait-mark { font-family:Georgia,"Times New Roman",serif; color:var(--petrol); font-size:5rem; line-height:1.2; }
+.jl-portrait-placeholder > span:not(.jl-portrait-mark) { font-size:.9rem; }
+.jl-portrait-placeholder small { color:#647980; font-size:.78rem; }
+.jl-home-sections { width:min(100% - 3rem,1000px); margin:0 auto; padding:0 0 4rem; }
+.jl-home-sections h2 { font-family:Georgia,"Times New Roman",serif; font-size:1.7rem; line-height:1.3; margin:2rem 0 1rem; border-bottom:1px solid var(--mist); padding:0 0 .65rem; }
+.jl-interests { display:flex; flex-wrap:wrap; gap:.55rem; margin-bottom:1.7rem; }
+.jl-interests span { background:#f0f5f5; color:var(--petrol); padding:.35rem .7rem; border-radius:3px; font-size:.88rem; }
+.jl-paper { margin:0 0 1.25rem; }
+.jl-paper strong { display:block; font-weight:650; line-height:1.55; }
+.jl-paper p { margin:.3rem 0 0; line-height:1.65; }
+.jl-more { font-weight:650; text-decoration:none; border-bottom:2px solid var(--coral); }
+@media(max-width:800px) { .jl-hero { grid-template-columns:1fr; padding:2.7rem 0; gap:2rem; } .jl-portrait-wrap { max-width:320px; } .jl-hero h1.jl-name { font-size:3.2rem; } }
