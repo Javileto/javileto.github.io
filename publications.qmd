@@ -1,0 +1,28 @@
+---
+title: "Publications"
+---
+
+A selection of my academic publications is listed below, based on my current CV. For updates, see my [Google Scholar profile](https://scholar.google.com/citations?user=gfkU6GwAAAAJ&hl=en).
+
+## Peer-reviewed journal articles
+
+1. Peiró-Pérez, R., García-Sierra, M., Peso-Moreno, F. J., Longo-Abril, G., et al., including Lera, J. (2026). “Invertir la tendencia de la obesidad infantil: ocho experiencias de promoción de la salud en zonas en situación de vulnerabilidad. Proyecto Health4EUKids.” *Revista Española de Salud Pública*, 100, e202610066.
+2. **Lera, J.**, Pinillos-Franco, S., and Cantarero-Prieto, D. (2026). “Social capital, partnership transitions and depressive symptoms in later life: Evidence from Europe.” *Applied Economics*. [DOI](https://doi.org/10.1080/00036846.2026.2740199).
+3. Pinillos-Franco, S., **Lera, J.**, and Cantarero-Prieto, D. (2026). “Parental permissiveness toward alcohol and tobacco and its consequences for adolescent vaping behaviors.” *BMC Public Health*. [DOI](https://doi.org/10.1186/s12889-026-29193-0).
+4. **Lera, J.**, Cantarero-Prieto, D., and Pinillos-Franco, S. (2026). “Pay attention to your social capital! It determines your health: an analysis for the elderly in Europe.” *Health Economics Review*, 16, 18.
+5. García, E., **Lera, J.**, Cantarero-Prieto, D., Blázquez-Fernández, C., Expósito, A., and Rodríguez-Valcarce, A. (2026). “Humanization in palliative care through art: A Social Return on Investment (SROI) analysis of ProArt.” *Revista Galega de Economía*, 35(2).
+6. Barreda, M., Cantarero-Prieto, D., Coca, D., Delgado, A., Lanza-León, P., **Lera, J.**, Montalbán, R., and Pérez, F. (2025). “Transforming healthcare with chatbots: Uses and applications—A scoping review.” *Digital Health*.
+7. Pinillos-Franco, S., Cantarero-Prieto, D., and **Lera, J.** (2024). “Feeling discriminated means poor self-perceived health: A gender analysis using SHARE.” *International Journal of Health Economics and Management*.
+8. Cantarero-Prieto, D., Lanza-León, P., Moreno-Mencía, P., **Lera, J.**, González, F., González-Rodríguez, I., and Blázquez-Fernández, C. (2023). “Coronavirus fear of contagion and compliance with social distancing measures: Evidence for a sample of a Spanish university community.” *PeerJ*.
+9. Cava, P., San Román, J., Barreiro, P., Candel, F. J., et al., including **Lera, J.** (2023). “Temporal Series Analysis of Population Cycle Threshold Counts as a Predictor of Surge in Cases and Hospitalizations during the SARS-CoV-2 Pandemic.” *Viruses*, 15(2), 421.
+10. Cantarero-Prieto, D., Lanza-León, P., Moreno-Mencía, P., Blázquez-Fernández, C., **Lera, J.**, González-Diego, F. J., and González-Rodríguez, I. (2023). “Change in eating habits during the Spanish COVID-19 pandemic lockdown: Evidence for a sample of university community.” *PeerJ*, 11, e14244.
+11. Cantarero-Prieto, D., **Lera, J.**, Lanza-León, P., Barreda-Gutiérrez, M., Guillem-Porta, V., Castelo-Branco, L., and Martín-Moreno, J. M. (2022). “The Economic Burden of Localized Prostate Cancer and Insights Derived from Cost-Effectiveness Studies of the Different Treatments.” *Cancers*, 14(17), 4088.
+12. **Lera, J.**, Pascual-Sáez, M., and Cantarero-Prieto, D. (2021). “Socioeconomic Inequality in the Use of Long-Term Care among European Older Adults: An Empirical Approach Using the SHARE Survey.” *International Journal of Environmental Research and Public Health*, 18(1), 20.
+13. Cantarero-Prieto, D., Pascual-Sáez, M., and **Lera, J.** (2020). “Healthcare Utilization and Healthy Lifestyles among Elderly People Living in Southern Europe: Recent Evidence from SHARE.” *Atlantic Economic Journal*, 48(1), 53–66.
+
+## Books and book chapters
+
+- **Lera, J.** and Barreda, M. (2025). “Evaluación colaborativa en Statistical Methods in Economics and Business: Una experiencia con estudiantes internacionales.” In *Experiencias que enseñan*, Dykinson.
+- Cantarero-Prieto, D. and **Lera, J.** (2023). “Las nuevas perspectivas del Edadismo y de la Economía de la longevidad.” In *La fiscalidad del envejecimiento*, Aranzadi.
+- Cantarero-Prieto, D. and **Lera, J.** (2022). “Relación entre el edadismo y el desarrollo especializado en sectores relacionados con la economía silver: presente y futuro.” In *Economía y longevidad: Seminario Ageingnomics 2021*, Fundación MAPFRE.
+- **Lera, J.**, Pascual-Sáez, M., and Cantarero-Prieto, D. (2021). “¿Podemos mejorar los cuidados de larga duración de las personas mayores en la era COVID-19?” In *Envejecimiento y COVID-19: Seminario Ageingnomics 2020*, Fundación MAPFRE.

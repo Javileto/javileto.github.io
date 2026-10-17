@@ -1,0 +1,19 @@
+---
+title: "Research"
+---
+
+My research is situated within **applied economics**, with particular interests in the economic determinants of health and well-being, inequalities, ageing, and the evaluation of public policies. I use quantitative methods and microeconometric approaches to study these topics.
+
+## Research interests
+
+- **Health Economics:** health inequalities, healthcare utilisation, health-related behaviours and economic evaluation.
+- **Public Economics:** social protection, redistribution and public policy.
+- **Economics of Ageing and Long-Term Care:** later-life well-being, care needs and access to services.
+- **Applied Microeconometrics:** quantitative analysis of individual- and population-level data.
+- **Public Policy Evaluation:** assessment of policy outcomes and impacts.
+
+## Research collaborations
+
+My research has involved the Department of Economics at the University of Cantabria and the Valdecilla Biomedical Research Institute (IDIVAL), as well as participation in national and European research projects.
+
+[Explore research projects →](projects.qmd){.more-link}

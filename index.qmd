@@ -1,0 +1,51 @@
+---
+title: "Home"
+page-layout: full
+---
+
+::: {.hero-wrap}
+::: {.hero-copy}
+<div class="eyebrow">UNIVERSITY OF CANTABRIA · SPAIN</div>
+
+# Javier Lera {.hero-name}
+
+<div class="role">Assistant Professor of Economics</div>
+<div class="accent-rule"></div>
+
+I am an **applied economist** whose research lies at the intersection of health economics, public economics and social policy. My work focuses on socioeconomic inequalities, ageing, well-being and the evaluation of public policies using quantitative methods.
+
+<div class="hero-actions">
+<a class="btn btn-primary" href="assets/Javier_Lera_CV.pdf">View CV ↗</a>
+<a class="btn btn-outline-primary" href="publications.html">Publications</a>
+<a class="btn btn-outline-primary" href="https://scholar.google.com/citations?user=gfkU6GwAAAAJ&amp;hl=en">Google Scholar ↗</a>
+</div>
+:::
+
+::: {.portrait-area}
+<div class="portrait-placeholder"><div class="portrait-mark">JL</div><span>Professional portrait</span><small>To be added</small></div>
+:::
+:::
+
+::: {.home-sections}
+## Research interests
+
+<div class="interests"><span>Health Economics</span><span>Public Economics</span><span>Ageing & Long-Term Care</span><span>Applied Microeconometrics</span><span>Public Policy Evaluation</span></div>
+
+## Selected publications
+
+**Social capital, partnership transitions and depressive symptoms in later life: Evidence from Europe.**  
+Lera, J., Pinillos-Franco, S., and Cantarero-Prieto, D. (2026). *Applied Economics*. [DOI](https://doi.org/10.1080/00036846.2026.2740199)
+
+**Parental permissiveness toward alcohol and tobacco and its consequences for adolescent vaping behaviors.**  
+Pinillos-Franco, S., Lera, J., and Cantarero-Prieto, D. (2026). *BMC Public Health*.
+
+**Pay attention to your social capital! It determines your health: an analysis for the elderly in Europe.**  
+Lera, J., Cantarero-Prieto, D., and Pinillos-Franco, S. (2026). *Health Economics Review*, 16, 18.
+
+[View all publications →](publications.qmd){.more-link}
+
+## Contact
+
+Department of Economics, University of Cantabria, Santander, Spain  
+[javier.lera@unican.es](mailto:javier.lera@unican.es) · [ORCID](https://orcid.org/0000-0002-0367-265X) · [Google Scholar](https://scholar.google.com/citations?user=gfkU6GwAAAAJ&hl=en)
+:::

@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Javier Lera"
+  site-url: https://www.javierlera.com
+  description: "Javier Lera | Applied Economist and Assistant Professor of Economics, University of Cantabria"
+  favicon: assets/jl-monogram.svg
+  navbar:
+    logo: assets/jl-monogram.svg
+    logo-alt: "JL — Javier Lera"
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Conferences
+        href: conferences.qmd
+      - text: CV
+        href: assets/Javier_Lera_CV.pdf
+    right:
+      - icon: envelope
+        href: mailto:javier.lera@unican.es
+        aria-label: Email
+  page-footer:
+    center: "© Javier Lera · University of Cantabria"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
+    smooth-scroll: true
+    include-in-header:
+      text: |
+        <meta name="theme-color" content="#1F4E5F">
+execute:
+  freeze: auto

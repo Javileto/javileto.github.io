@@ -1,0 +1,27 @@
+---
+title: "Research Projects"
+---
+
+## European and international research projects
+
+- **HOPE4Kids — Holistic Oncological Palliative Care 4 Europe’s Kids** (2025–2029). EU4Health Programme, European Commission.
+- **SAM — Smart Digital Twin for Social Prescribing in Primary Healthcare** (2025–2028). Interreg Sudoe, European Commission.
+- **Health4EUkids — Joint Action for Health Promotion and Prevention** (2022–2025). EU4Health Programme, HaDEA.
+- **TIMELY — A Patient-Centered Early Risk Prediction, Prevention, and Intervention Platform** (2021–2024). Horizon 2020, Grant Agreement 101017424.
+
+## Other competitive research projects
+
+- **Design of a Methodology for the Evaluation of Programmes and Services of the Cantabrian Employment Service** (2025–2026). Government of Cantabria.
+- **Predictive Analysis of Factors Associated with Therapeutic Non-Adherence in Primary Care** (2023–2025). IDIVAL.
+- **Cost-Effectiveness of a Robotic Voice Tool for Patient Communication** (2023–2024). Government of Cantabria.
+- **Economic Evaluation of Continuous Glucose Monitoring in the Cantabrian Health Service** (2019–2021). IDIVAL.
+- **Modelling and Sensitivity Analysis in the Evaluation of Public Policies in Health Economics** (2019–2020). SODERCAN.
+
+## Knowledge transfer and contract research
+
+- Digitalisation Indicators System for Cantabria (2026).
+- Productivity and workforce sizing in Cantabrian Health Service hospitals (2025).
+- Integrated Territorial Strategy for the Besaya Region (2025).
+- Instruments to Promote R&D&I in Cantabria (2024–2025).
+- Research on PROMs and PREMs in Migraine (2024–2025).
+- Social return of a diagnostic algorithm for cardiac amyloidosis (2019).
