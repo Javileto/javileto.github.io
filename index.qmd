@@ -29,7 +29,7 @@ main.content h2 { font-size:1.6rem; margin-top:2.2rem; border-bottom:1px solid v
 .jl-accent-rule { height:3px; width:70px; background:var(--coral); margin:1.3rem 0; }
 .jl-hero p.jl-intro { font-size:1.05rem; line-height:1.85; letter-spacing:normal; margin:0 0 1.05rem; max-width:650px; overflow-wrap:break-word; }
 .jl-hero p.jl-intro:last-of-type { margin-bottom:0; }
-.jl-portrait-wrap { width:100%; min-width:0; display:flex; justify-content:flex-end; }
+.jl-portrait-wrap { width:100%; min-width:0; display:flex; justify-content:flex-end; padding-top:30px; }
 .jl-portrait-photo { width:100%; aspect-ratio:4/5; max-width:315px; object-fit:cover; object-position:center top; display:block; border-radius:3px; }
 .jl-home-sections { width:min(100% - 3rem,1000px); margin:0 auto; padding:0 0 4rem; }
 .jl-home-sections h2 { font-family:Georgia,"Times New Roman",serif; font-size:1.7rem; line-height:1.3; margin:2rem 0 1rem; border-bottom:1px solid var(--mist); padding:0 0 .65rem; }
@@ -52,7 +52,7 @@ body:has(.jl-hero) .jl-hero {display:grid !important;grid-template-columns:minma
 body:has(.jl-hero) .jl-interests {display:flex !important;flex-wrap:wrap !important;gap:.55rem !important;}
 @media(max-width:800px) {
   .jl-hero { grid-template-columns:1fr; padding:2.7rem 0; gap:2rem; }
-  .jl-portrait-wrap { max-width:315px; justify-content:flex-start; }
+  .jl-portrait-wrap { max-width:315px; justify-content:flex-start; padding-top:0; }
   .jl-hero h1.jl-name { font-size:3.2rem; }
   body:has(.jl-hero) .jl-hero {grid-template-columns:1fr !important;gap:1.5rem !important}
 }
@@ -64,7 +64,7 @@ body:has(.jl-hero) .jl-interests {display:flex !important;flex-wrap:wrap !import
     <p class="jl-role">Assistant Professor of Economics</p>
     <div class="jl-accent-rule" aria-hidden="true"></div>
     <p class="jl-intro">I am an <strong>applied economist</strong> at the University of Cantabria (Spain). My research lies at the intersection of health economics, public economics and social policy, with a particular focus on socioeconomic inequalities, ageing, well-being and public policy evaluation.</p>
-    <p class="jl-intro">I hold a PhD in Economics from an interuniversity doctoral programme involving the University of Cantabria, the University of the Basque Country (UPV/EHU) and the University of Oviedo. Before my current position, I worked as a postdoctoral researcher at the Valdecilla Biomedical Research Institute (IDIVAL). My work draws on applied microeconometric methods, and I have participated in national and European research projects.</p>
+    <p class="jl-intro">I hold a PhD in Economics from an interuniversity doctoral programme involving the University of Cantabria, the University of the Basque Country (UPV/EHU) and the University of Oviedo. Before my current position, I worked as a postdoctoral researcher at the Valdecilla Biomedical Research Institute (IDIVAL).</p>
   </div>
   <div class="jl-portrait-wrap">
     <img class="jl-portrait-photo" src="assets/portrait.jpg" alt="Portrait of Javier Lera" width="315" height="394" loading="eager">
