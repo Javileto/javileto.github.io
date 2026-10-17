@@ -11,8 +11,6 @@ website:
     logo: assets/jl-monogram.svg
     logo-alt: "JL — Javier Lera"
     left:
-      - text: Home
-        href: index.qmd
       - text: Research
         href: research.qmd
       - text: Publications
