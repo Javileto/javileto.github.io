@@ -28,7 +28,7 @@ main.content h2 { font-size:1.6rem; margin-top:2.2rem; border-bottom:1px solid v
 .jl-hero h1.jl-name { font-family:Georgia,"Times New Roman",serif; color:var(--ink); font-size:clamp(3.1rem,5vw,5rem); line-height:1.12; letter-spacing:-.035em; margin:0 0 .5rem; padding:0; border:0; }
 .jl-hero p.jl-role { font-family:Georgia,"Times New Roman",serif; color:var(--petrol); font-size:clamp(1.2rem,2vw,1.55rem); line-height:1.45; letter-spacing:normal; margin:0; }
 .jl-accent-rule { height:3px; width:70px; background:var(--coral); margin:1.3rem 0; }
-.jl-hero p.jl-intro { font-size:1.05rem; line-height:1.85; letter-spacing:normal; margin:0 0 1rem; max-width:650px; overflow-wrap:break-word; }
+.jl-hero p.jl-intro { font-size:1.05rem; line-height:1.85; letter-spacing:normal; margin:0; max-width:650px; overflow-wrap:break-word; }
 .jl-actions { display:flex; flex-wrap:wrap; align-items:center; gap:.75rem; margin-top:1.7rem; }
 .jl-actions a.jl-button { display:inline-flex; justify-content:center; align-items:center; min-height:44px; padding:.6rem 1rem; border:1px solid var(--petrol); border-radius:5px; text-decoration:none; line-height:1.3; letter-spacing:normal; font-size:.92rem; white-space:nowrap; }
 .jl-actions a.jl-button-primary { color:#fff; background:var(--petrol); }
@@ -72,8 +72,8 @@ body:has(.jl-hero) .jl-interests {display:flex !important;flex-wrap:wrap !import
     <h1 class="jl-name">Javier Lera</h1>
     <p class="jl-role">Assistant Professor of Economics</p>
     <div class="jl-accent-rule" aria-hidden="true"></div>
-    <p class="jl-intro">I am an Assistant Professor of Economics at the University of Cantabria (Spain). My research lies at the intersection of applied economics, health economics, public economics and social policy, with a particular focus on socioeconomic inequalities, ageing, well-being and public policy evaluation.</p>
-    <p class="jl-intro">I hold a PhD in Economics from an interuniversity doctoral programme involving the University of Cantabria, the University of the Basque Country (UPV/EHU) and the University of Oviedo. Before my current position, I worked as a postdoctoral researcher at the Valdecilla Biomedical Research Institute (IDIVAL). My research draws on applied microeconometric methods, and I have participated in several national and European research projects.</p>
+    <p class="jl-intro">I am an <strong>applied economist</strong> and Assistant Professor of Economics at the University of Cantabria (Spain). My research lies at the intersection of health economics, public economics and social policy, with a particular focus on socioeconomic inequalities, ageing, well-being and public policy evaluation.</p>
+    <p class="jl-intro">I hold a PhD in Economics from an interuniversity doctoral programme involving the University of Cantabria, the University of the Basque Country (UPV/EHU) and the University of Oviedo. Before my current position, I worked as a postdoctoral researcher at the Valdecilla Biomedical Research Institute (IDIVAL). My work draws on applied microeconometric methods, and I have participated in national and European research projects.</p>
   </div>
   <div class="jl-portrait-wrap">
     <img class="jl-portrait-photo" src="assets/portrait.jpg" alt="Portrait of Javier Lera" width="350" height="438" loading="eager">
