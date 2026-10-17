@@ -50,6 +50,12 @@ main.content h2 { font-size:1.6rem; margin-top:2.2rem; border-bottom:1px solid v
 .jl-more { font-weight:650; text-decoration:none; border-bottom:2px solid var(--coral); }
 @media(max-width:800px) { .jl-hero { grid-template-columns:1fr; padding:2.7rem 0; gap:2rem; } .jl-portrait-wrap { max-width:320px; } .jl-hero h1.jl-name { font-size:3.2rem; } }
 
+.jl-contact-links { display:flex; flex-wrap:wrap; justify-content:center; gap:clamp(1rem,4vw,3.5rem); margin:1.4rem 0 2rem; }
+.jl-contact-links a { display:flex; flex-direction:column; gap:.5rem; align-items:center; color:var(--petrol); font-size:.85rem; text-decoration:none; }
+.jl-contact-circle { width:66px; height:66px; border:1.6px solid var(--petrol); border-radius:50%; display:grid; place-items:center; color:var(--petrol); font-family:Arial,sans-serif; font-size:1.55rem; font-weight:650; transition:background .15s,color .15s,border-color .15s; }
+.jl-contact-links a:hover .jl-contact-circle { background:var(--coral); border-color:var(--coral); color:white; }
+.jl-contact-address { text-align:center; line-height:1.8; font-size:.94rem; color:var(--petrol); }
+
 /* Critical: self-contained homepage styles */
 body:has(.jl-hero) #title-block-header, body:has(.jl-hero) header#title-block-header {display:none !important;}
 body:has(.jl-hero) main#quarto-document-content {max-width:none !important;width:100% !important;}
@@ -82,7 +88,7 @@ body:has(.jl-hero) .jl-interests {display:flex !important;flex-wrap:wrap !import
   <div class="jl-interests">
     <span>Health Economics</span><span>Public Economics</span><span>Ageing &amp; Long-Term Care</span><span>Applied Microeconometrics</span><span>Public Policy Evaluation</span>
   </div>
-  <h2>Selected publications</h2>
+  <h2>Recent Publications</h2>
   <div class="jl-paper">
     <strong>Social capital, partnership transitions and depressive symptoms in later life: Evidence from Europe.</strong>
     <p>Lera, J., Pinillos-Franco, S., and Cantarero-Prieto, D. (2026). <em>Applied Economics</em>. <a href="https://doi.org/10.1080/00036846.2026.2740199">DOI</a></p>
@@ -97,6 +103,12 @@ body:has(.jl-hero) .jl-interests {display:flex !important;flex-wrap:wrap !import
   </div>
   <p><a class="jl-more" href="publications.html">View all publications →</a></p>
   <h2>Contact</h2>
-  <p>Department of Economics, University of Cantabria, Santander, Spain<br><a href="mailto:javier.lera@unican.es">javier.lera@unican.es</a> · <a href="https://orcid.org/0000-0002-0367-265X">ORCID</a> · <a href="https://scholar.google.com/citations?user=gfkU6GwAAAAJ&amp;hl=en">Google Scholar</a></p>
+  <div class="jl-contact-links" aria-label="Academic and professional profiles">
+    <a href="mailto:javier.lera@unican.es" aria-label="Email Javier Lera"><span class="jl-contact-circle" aria-hidden="true">✉</span><span>Email</span></a>
+    <a href="https://scholar.google.com/citations?user=gfkU6GwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><span class="jl-contact-circle" aria-hidden="true">G</span><span>Scholar</span></a>
+    <a href="https://orcid.org/0000-0002-0367-265X" target="_blank" rel="noopener noreferrer" aria-label="ORCID"><span class="jl-contact-circle" aria-hidden="true">iD</span><span>ORCID</span></a>
+    <a href="https://www.linkedin.com/in/javier-lera-torres-617791a9/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><span class="jl-contact-circle" aria-hidden="true">in</span><span>LinkedIn</span></a>
+  </div>
+  <p class="jl-contact-address"><strong>Department of Economics · University of Cantabria</strong><br>Av. de los Castros s/n, 39005 Santander, Spain<br><a href="mailto:javier.lera@unican.es">javier.lera@unican.es</a></p>
 </section>
 ```
