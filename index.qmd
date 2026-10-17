@@ -6,7 +6,6 @@ title-block-style: none
 
 ```{=html}
 <style>
-/* Javier Lera | Petrol + coral | Quarto website */
 :root { --petrol:#1F4E5F; --coral:#E97A5F; --ink:#16323B; --mist:#E9EEF0; --paper:#FAFAF8; }
 body { background:#fff; color:var(--ink); font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:1rem; line-height:1.7; }
 h1,h2,h3,.navbar-title { font-family:Georgia,"Times New Roman",serif; color:var(--ink); }
@@ -20,26 +19,18 @@ a:hover { color:var(--coral); }
 .navbar .navbar-nav { gap:.12rem; }
 main.content h2 { font-size:1.6rem; margin-top:2.2rem; border-bottom:1px solid var(--mist); padding-bottom:.55rem; }
 .nav-footer { color:#58717b; border-top:1px solid var(--mist); }
-/* Home hero: isolated styles to avoid theme collisions */
-.jl-hero { box-sizing:border-box; display:grid; grid-template-columns:minmax(0,1.5fr) minmax(220px,.8fr); gap:clamp(2rem,5vw,4rem); align-items:center; width:min(100% - 3rem,1100px); margin:0 auto; padding:clamp(3rem,6vw,5rem) 0; }
+
+.jl-hero { box-sizing:border-box; display:grid; grid-template-columns:minmax(0,1.5fr) minmax(220px,.8fr); gap:clamp(2rem,5vw,4rem); align-items:start; width:min(100% - 3rem,1100px); margin:0 auto; padding:clamp(3rem,6vw,5rem) 0; }
 .jl-hero *, .jl-home-sections * { box-sizing:border-box; }
 .jl-hero-copy { min-width:0; width:100%; }
 .jl-eyebrow { color:var(--coral); font-size:.76rem; font-weight:700; letter-spacing:.13em; margin:0 0 1rem; }
 .jl-hero h1.jl-name { font-family:Georgia,"Times New Roman",serif; color:var(--ink); font-size:clamp(3.1rem,5vw,5rem); line-height:1.12; letter-spacing:-.035em; margin:0 0 .5rem; padding:0; border:0; }
 .jl-hero p.jl-role { font-family:Georgia,"Times New Roman",serif; color:var(--petrol); font-size:clamp(1.2rem,2vw,1.55rem); line-height:1.45; letter-spacing:normal; margin:0; }
 .jl-accent-rule { height:3px; width:70px; background:var(--coral); margin:1.3rem 0; }
-.jl-hero p.jl-intro { font-size:1.05rem; line-height:1.85; letter-spacing:normal; margin:0; max-width:650px; overflow-wrap:break-word; }
-.jl-actions { display:flex; flex-wrap:wrap; align-items:center; gap:.75rem; margin-top:1.7rem; }
-.jl-actions a.jl-button { display:inline-flex; justify-content:center; align-items:center; min-height:44px; padding:.6rem 1rem; border:1px solid var(--petrol); border-radius:5px; text-decoration:none; line-height:1.3; letter-spacing:normal; font-size:.92rem; white-space:nowrap; }
-.jl-actions a.jl-button-primary { color:#fff; background:var(--petrol); }
-.jl-actions a.jl-button-outline { color:var(--petrol); background:transparent; }
-.jl-actions a.jl-button:hover { background:var(--coral); border-color:var(--coral); color:white; }
-.jl-portrait-wrap { width:100%; min-width:0; }
-.jl-portrait-photo { width:100%; aspect-ratio:4/5; max-width:350px; object-fit:cover; object-position:center top; display:block; border-radius:3px; }
-.jl-portrait-placeholder { width:100%; aspect-ratio:4/5; max-width:350px; border:1px solid #dfe7e8; background:linear-gradient(150deg,var(--paper),var(--mist)); color:var(--petrol); display:flex; flex-direction:column; justify-content:center; align-items:center; gap:.35rem; text-align:center; }
-.jl-portrait-mark { font-family:Georgia,"Times New Roman",serif; color:var(--petrol); font-size:5rem; line-height:1.2; }
-.jl-portrait-placeholder > span:not(.jl-portrait-mark) { font-size:.9rem; }
-.jl-portrait-placeholder small { color:#647980; font-size:.78rem; }
+.jl-hero p.jl-intro { font-size:1.05rem; line-height:1.85; letter-spacing:normal; margin:0 0 1.05rem; max-width:650px; overflow-wrap:break-word; }
+.jl-hero p.jl-intro:last-of-type { margin-bottom:0; }
+.jl-portrait-wrap { width:100%; min-width:0; display:flex; justify-content:flex-end; }
+.jl-portrait-photo { width:100%; aspect-ratio:4/5; max-width:315px; object-fit:cover; object-position:center top; display:block; border-radius:3px; }
 .jl-home-sections { width:min(100% - 3rem,1000px); margin:0 auto; padding:0 0 4rem; }
 .jl-home-sections h2 { font-family:Georgia,"Times New Roman",serif; font-size:1.7rem; line-height:1.3; margin:2rem 0 1rem; border-bottom:1px solid var(--mist); padding:0 0 .65rem; }
 .jl-interests { display:flex; flex-wrap:wrap; gap:.55rem; margin-bottom:1.7rem; }
@@ -48,23 +39,23 @@ main.content h2 { font-size:1.6rem; margin-top:2.2rem; border-bottom:1px solid v
 .jl-paper strong { display:block; font-weight:650; line-height:1.55; }
 .jl-paper p { margin:.3rem 0 0; line-height:1.65; }
 .jl-more { font-weight:650; text-decoration:none; border-bottom:2px solid var(--coral); }
-@media(max-width:800px) { .jl-hero { grid-template-columns:1fr; padding:2.7rem 0; gap:2rem; } .jl-portrait-wrap { max-width:320px; } .jl-hero h1.jl-name { font-size:3.2rem; } }
-
 .jl-contact-links { display:flex; flex-wrap:wrap; justify-content:center; gap:clamp(1rem,4vw,3.5rem); margin:1.4rem 0 2rem; }
 .jl-contact-links a { display:flex; flex-direction:column; gap:.5rem; align-items:center; color:var(--petrol); font-size:.85rem; text-decoration:none; }
 .jl-contact-circle { width:66px; height:66px; border:1.6px solid var(--petrol); border-radius:50%; display:grid; place-items:center; color:var(--petrol); font-family:Arial,sans-serif; font-size:1.55rem; font-weight:650; transition:background .15s,color .15s,border-color .15s; }
 .jl-contact-links a:hover .jl-contact-circle { background:var(--coral); border-color:var(--coral); color:white; }
 .jl-contact-address { text-align:center; line-height:1.8; font-size:.94rem; color:var(--petrol); }
 
-/* Critical: self-contained homepage styles */
 body:has(.jl-hero) #title-block-header, body:has(.jl-hero) header#title-block-header {display:none !important;}
 body:has(.jl-hero) main#quarto-document-content {max-width:none !important;width:100% !important;}
 body:has(.jl-hero) .page-columns {column-gap:0 !important;}
-body:has(.jl-hero) .jl-hero {display:grid !important;grid-template-columns:minmax(0,1.55fr) minmax(200px,.8fr) !important;gap:3rem !important;align-items:center !important;}
-body:has(.jl-hero) .jl-actions {display:flex !important;flex-wrap:wrap !important;gap:.75rem !important;}
+body:has(.jl-hero) .jl-hero {display:grid !important;grid-template-columns:minmax(0,1.55fr) minmax(200px,.8fr) !important;gap:3rem !important;align-items:start !important;}
 body:has(.jl-hero) .jl-interests {display:flex !important;flex-wrap:wrap !important;gap:.55rem !important;}
-@media(max-width:800px){body:has(.jl-hero) .jl-hero{grid-template-columns:1fr !important;gap:1.5rem !important}}
-
+@media(max-width:800px) {
+  .jl-hero { grid-template-columns:1fr; padding:2.7rem 0; gap:2rem; }
+  .jl-portrait-wrap { max-width:315px; justify-content:flex-start; }
+  .jl-hero h1.jl-name { font-size:3.2rem; }
+  body:has(.jl-hero) .jl-hero {grid-template-columns:1fr !important;gap:1.5rem !important}
+}
 </style>
 <section class="jl-hero" aria-label="Introduction">
   <div class="jl-hero-copy">
@@ -72,11 +63,11 @@ body:has(.jl-hero) .jl-interests {display:flex !important;flex-wrap:wrap !import
     <h1 class="jl-name">Javier Lera</h1>
     <p class="jl-role">Assistant Professor of Economics</p>
     <div class="jl-accent-rule" aria-hidden="true"></div>
-    <p class="jl-intro">I am an <strong>applied economist</strong> and Assistant Professor of Economics at the University of Cantabria (Spain). My research lies at the intersection of health economics, public economics and social policy, with a particular focus on socioeconomic inequalities, ageing, well-being and public policy evaluation.</p>
+    <p class="jl-intro">I am an <strong>applied economist</strong> at the University of Cantabria (Spain). My research lies at the intersection of health economics, public economics and social policy, with a particular focus on socioeconomic inequalities, ageing, well-being and public policy evaluation.</p>
     <p class="jl-intro">I hold a PhD in Economics from an interuniversity doctoral programme involving the University of Cantabria, the University of the Basque Country (UPV/EHU) and the University of Oviedo. Before my current position, I worked as a postdoctoral researcher at the Valdecilla Biomedical Research Institute (IDIVAL). My work draws on applied microeconometric methods, and I have participated in national and European research projects.</p>
   </div>
   <div class="jl-portrait-wrap">
-    <img class="jl-portrait-photo" src="assets/portrait.jpg" alt="Portrait of Javier Lera" width="350" height="438" loading="eager">
+    <img class="jl-portrait-photo" src="assets/portrait.jpg" alt="Portrait of Javier Lera" width="315" height="394" loading="eager">
   </div>
 </section>
 <section class="jl-home-sections" aria-label="Highlights">
