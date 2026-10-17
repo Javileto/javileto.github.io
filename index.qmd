@@ -59,6 +59,40 @@ body:has(.jl-hero) .jl-actions {display:flex !important;flex-wrap:wrap !importan
 body:has(.jl-hero) .jl-interests {display:flex !important;flex-wrap:wrap !important;gap:.55rem !important;}
 @media(max-width:800px){body:has(.jl-hero) .jl-hero{grid-template-columns:1fr !important;gap:1.5rem !important}}
 
+
+/* Homepage width and balance refinement — October 2026.
+   Only targets the home page; other pages and the navigation stay unchanged. */
+@media (min-width: 901px) {
+  body:has(.jl-hero) .jl-hero {
+    width: min(1120px, calc(100vw - 80px)) !important;
+    max-width: none !important;
+    margin-left: 50% !important;
+    margin-right: 0 !important;
+    transform: translateX(-50%);
+    grid-template-columns: minmax(0, 1.5fr) minmax(0, 0.9fr) !important;
+    column-gap: clamp(3rem, 6vw, 6rem) !important;
+    padding: 4.25rem 0 4rem !important;
+  }
+  body:has(.jl-hero) .jl-home-sections {
+    width: min(1060px, calc(100vw - 100px)) !important;
+    max-width: none !important;
+    margin-left: 50% !important;
+    margin-right: 0 !important;
+    transform: translateX(-50%);
+  }
+  body:has(.jl-hero) .jl-portrait-photo { max-width: 390px; }
+}
+@media (max-width: 900px) {
+  body:has(.jl-hero) .jl-hero,
+  body:has(.jl-hero) .jl-home-sections {
+    width: min(100% - 2rem, 720px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    transform: none;
+  }
+  body:has(.jl-hero) .jl-hero { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  body:has(.jl-hero) .jl-portrait-wrap { max-width: 350px; }
+}
 </style>
 <section class="jl-hero" aria-label="Introduction">
   <div class="jl-hero-copy">
